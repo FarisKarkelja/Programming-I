@@ -98,18 +98,26 @@ Comments and explanations in code are like signs that guide developers and progr
 
 ## Comments and Explanations:
 
-### Class Definitions: The ‘User’, ‘Pet’, ‘Record’, ‘Appointment’ classes represent the main entities in the overall system, containing user information, pet details, appointment details and health records.
+### Class Definitions: 
+The ‘User’, ‘Pet’, ‘Record’, ‘Appointment’ classes represent the main entities in the overall system, containing user information, pet details, appointment details and health records.
 
-### Loading and Saving Users: ‘load_users()’ and ‘save_users()’ do certain tasks, where the first one reads user information from a particular file, and the second one writes that information to that file.
+### Loading and Saving Users: 
+‘load_users()’ and ‘save_users()’ do certain tasks, where the first one reads user information from a particular file, and the second one writes that information to that file.
 
-### User Registration and Login: ‘register()’ firstly checks whether the username already exists, and if that is not the case, it registers a new user to the system. ‘login()’ logs in the already existing registered user and it checks whether the user credentials are valid or not.
+### User Registration and Login: 
+‘register()’ firstly checks whether the username already exists, and if that is not the case, it registers a new user to the system. ‘login()’ logs in the already existing registered user and it checks whether the user credentials are valid or not.
 
-### Adding Pet and Health Record: ‘add_pet()’ and ‘add_record()’ functions allow users to add an unlimited amount of new pets and their health records.
+### Adding Pet and Health Record: 
+‘add_pet()’ and ‘add_record()’ functions allow users to add an unlimited amount of new pets and their health records.
 
-### Adding Vaccinations and Appointments: ‘add_vaccination’ and ‘add_appointment’ functions allow users to add a non-limited amount of detailed information about past or present vaccinations and appointments. 
+### Adding Vaccinations and Appointments: 
+‘add_vaccination’ and ‘add_appointment’ functions allow users to add a non-limited amount of detailed information about past or present vaccinations and appointments. 
 
-### Calculating The Next Appointment: ‘calculate_next_appointment’ function fulfills the code with the ability of calculating the date of the future veterinary appointment. 
+### Calculating The Next Appointment: 
+‘calculate_next_appointment’ function fulfills the code with the ability of calculating the date of the future veterinary appointment. 
 
-### Displaying Pet Information: A detailed display of a user's pet and its important information is provided by the function ‘display_pet_info()’.
+### Displaying Pet Information: 
+A detailed display of a user's pet and its important information is provided by the function ‘display_pet_info()’.
 
-### Main Menu Loop: Several available options are displayed by the ‘main_menu()’ function which handles user input and executes actions based on the selected option.
+### Main Menu Loop: 
+Several available options are displayed by the ‘main_menu()’ function which handles user input and executes actions based on the selected option.
