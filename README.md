@@ -94,3 +94,22 @@ The system displays a message about the next appointment date.
 
 These flowcharts provide a visual representation of the key processes in the Pet Health Tracker application, helping users and developers understand the system's functionality and logic.
 
+Comments and explanations in code are like signs that guide developers and programmers through the logic and purpose of each part. In the provided code, comments present the roles of classes and functions, making it easier to understand and modify the code for possible future purposes. This promotes readability and collaboration among developers.
+
+## Comments and Explanations:
+
+### Class Definitions: The ‘User’, ‘Pet’, ‘Record’, ‘Appointment’ classes represent the main entities in the overall system, containing user information, pet details, appointment details and health records.
+
+### Loading and Saving Users: ‘load_users()’ and ‘save_users()’ do certain tasks, where the first one reads user information from a particular file, and the second one writes that information to that file.
+
+### User Registration and Login: ‘register()’ firstly checks whether the username already exists, and if that is not the case, it registers a new user to the system. ‘login()’ logs in the already existing registered user and it checks whether the user credentials are valid or not.
+
+### Adding Pet and Health Record: ‘add_pet()’ and ‘add_record()’ functions allow users to add an unlimited amount of new pets and their health records.
+
+### Adding Vaccinations and Appointments: ‘add_vaccination’ and ‘add_appointment’ functions allow users to add a non-limited amount of detailed information about past or present vaccinations and appointments. 
+
+### Calculating The Next Appointment: ‘calculate_next_appointment’ function fulfills the code with the ability of calculating the date of the future veterinary appointment. 
+
+### Displaying Pet Information: A detailed display of a user's pet and its important information is provided by the function ‘display_pet_info()’.
+
+### Main Menu Loop: Several available options are displayed by the ‘main_menu()’ function which handles user input and executes actions based on the selected option.
