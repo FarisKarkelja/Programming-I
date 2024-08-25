@@ -10,10 +10,6 @@ Secondary objectives of the following platform would be error handling and feedb
 
 In conclusion, the Pet Health Tracker strives to provide a reliable companion for pet owners. Available opportunity to continually improve the platform and the code itself offers a delightful experience for both pets and their devoted caregivers.
 
-## Roadmap
-
-In the second section the reader can expect explanations about listed program functionalities and their features. In the third section the flowchart and its description will be presented and explained. After the third section, the fourth section will be presented by the code of the application containing comments and descriptions. A visual representation of the application output in combination with brief explanations will be provided in the last section.
-
 ## Program Functionalities
 
 ### User Registration: 
@@ -45,3 +41,56 @@ Shortly after entering details of the appointment, the named functionality will 
 
 ### Exit Application: 
 Provides users with a simple exit option, which ensures a clean and user-friendly application experience. For the convenience of a user and the ability to exit the platform easily when needed to, this functionality is a key element for that.
+
+## Flowcharts
+
+The Pet Health Tracker platform integrates pet care management into user’s daily lives. Below are visual representations of key processes within the application.
+
+### User Registration Process:
+Purpose: This flowchart illustrates the process of registering a new user in the Pet Health Tracker application.
+Sequence:
+User enters a username and password.
+The system checks if the entered username already exists.
+If the username is unique, a new user object is created.
+The user object is added to the list of users.
+The updated user list is saved to the ‘users.txt.’ file.
+Registration is successful.
+
+### User Login Process:
+Purpose: This flowchart illustrates the process of user login in the Pet Health Tracker application.
+Sequence:
+User enters a username and password.
+The system searches for a matching user in the list.
+If a match is found, the user is logged in, and the current user variable is updated.
+If no match is found, the system indicates an invalid login attempt.
+
+### Add Pet Process:
+Purpose: This flowchart illustrates the process of adding a new pet to a user's profile in the Pet Health Tracker application.
+Sequence:
+User provides information about the pet (name, breed, age, weight, vaccination status).
+A new pet object is created with the provided information.
+The new pet is added to the user’s list of pets.
+
+### Display Pet Information Process:
+Purpose: This flowchart illustrates the process of displaying information about a user's pet/pets in the Pet Health Tracker application.
+Sequence:
+User selects the option to display pet information.
+The system retrieves and displays details for each pet, including name, breed, age, weight, vaccinations, health records, and appointments.
+
+### Add Health Record or Vaccination Process:
+Purpose: This flowchart illustrates the process of adding a health record or vaccination to a user's pet in the Pet Health Tracker application.
+Sequence:
+User selects the option to add a health record or vaccination.
+User provides information about the pet, date, description, and record type.
+The system adds the new record to the corresponding list in the pet’s profile.
+
+### Schedule Appointment Process:
+Purpose: This flowchart illustrates the process of scheduling and managing appointments for a user's pet in the Pet Health Tracker application.
+Sequence:
+User selects the option to schedule an appointment.
+User provides information about the pet and the last veterinarian visit date.
+The system adds a new appointment for the last vet visit and calculates the next appointment date.
+The system displays a message about the next appointment date.
+
+These flowcharts provide a visual representation of the key processes in the Pet Health Tracker application, helping users and developers understand the system's functionality and logic.
+
