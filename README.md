@@ -16,8 +16,6 @@ In the second section the reader can expect explanations about listed program fu
 
 ## Program Functionalities
 
-The Pet Health Tracker list of functionalities:
-
 ### User Registration: 
 This functionality is essential for users and their ability to set up their accounts with a username and password of their choice, which helps in creating a personalized and secure experience within the application. In addition, this particular process is crucial for user individual needs and maintenance of the privacy and security of user data.
 
